@@ -1,0 +1,163 @@
+body{
+margin:0;
+}
+header{
+text-align: center;
+font-size: 1.2em;
+background-color: gainsboro;
+border-top: 2px solid gray;
+border-bottom: 2px solid gray;
+}
+header p {
+font-size: 3em;
+}
+ul{
+justify-content: center;
+list-style-type: none;
+display: flex;
+}
+li{
+padding: 0PX 10PX 0PX 10PX;
+border-bottom: 4px solid
+black;
+margin: 0PX 3PX 0PX 3PX;
+}
+a{
+text-decoration: none;
+color:black;
+}
+.Presentation{
+width: 40%;
+text-align: justify;
+margin-left: 30.5%;
+margin-top: 2%;
+
+margin-bottom: 2%;
+}
+.Boutons{
+margin-top: 4%;
+font-size: 1.5em;
+}
+.form{
+text-align: center;
+
+margin-bottom: 3%;
+margin-top: 3%;
+
+display: flex;
+
+width: 40%;
+
+margin-left: 30.5%;
+}
+.form3{
+text-align: center;
+
+margin-bottom: 3%;
+margin-top: 3%;
+
+}
+.formavis{
+text-align: center;
+
+margin-bottom: 5%;
+
+margin-top: 5%;
+}
+.form-inscription{
+text-align: center;
+
+margin-bottom: 3%;
+
+margin-top: 3%;
+
+display: grid;
+
+width: 40%;
+
+margin-left: 30.5%;
+}
+.formfooter{
+text-align: center;
+
+margin-bottom: 3%;
+
+display: grid;
+
+
+width: 40%;
+
+margin-left: 30.5%;
+}
+label{
+margin: 2% 0% 0% 2%;
+}
+.comm{
+margin-left: 30%;
+
+margin-top: 4%;
+
+font-size: 2em;
+
+border-bottom: 3px solid
+black;
+
+width: 18%;
+}
+footer {
+margin: 0;
+
+background-color:
+gainsboro;
+
+border-top: 2px solid
+gray;
+
+border-bottom: 2px solid
+gray;
+}
+.php--findfilm{
+
+width: 36%;
+
+margin-left: 30%;
+
+border: 1px solid;
+
+padding: 2%;
+
+text-align: center;
+
+margin-top: 2%;
+background-color: #ffffff59;
+
+margin-bottom: 2%;
+
+}
+.php--findfilm a {
+border: 1px solid black;
+padding: 5px 10px;
+background-color: gainsboro;
+}
+.row-comm{
+border: 1px solid;
+
+justify-content: center;
+
+text-align: center;
+
+width: 35%;
+
+margin-left: 33%;
+
+margin-bottom: 3%;
+
+margin-top: 3%;
+
+padding-top: 1%;
+
+padding-bottom: 1%;
+}
+.row-comm p {
+max-width: 100%;
+}

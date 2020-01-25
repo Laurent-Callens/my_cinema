@@ -1,12 +1,37 @@
 body{
-margin:0;
+margin: 0;
+
+font-family: 'Gruppo', cursive;
+
+background-color:
+#393535;
+
+color:
+wheat;
 }
+.titre{
+display: flex;
+
+justify-content: center;
+
+margin-top: 2%;
+}
+.titre img{
+width: 15%;
+}
+.titre p {
+margin-top: 6%;
+}
+
+
 header{
 text-align: center;
 font-size: 1.2em;
 background-color: gainsboro;
-border-top: 2px solid gray;
-border-bottom: 2px solid gray;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+font-family: 'Cinzel Decorative', cursive;
+background-color: black;
 }
 header p {
 font-size: 3em;
@@ -18,20 +43,22 @@ display: flex;
 }
 li{
 padding: 0PX 10PX 0PX 10PX;
+
 border-bottom: 4px solid
-black;
-margin: 0PX 3PX 0PX 3PX;
+wheat;
+
+margin: 0PX 15PX 0PX 15PX;
 }
 a{
 text-decoration: none;
-color:black;
+color:wheat;
 }
 .Presentation{
 width: 40%;
 text-align: justify;
 margin-left: 30.5%;
 margin-top: 2%;
-
+font-size: 1.5em;
 margin-bottom: 2%;
 }
 .Boutons{
@@ -42,13 +69,12 @@ font-size: 1.5em;
 text-align: center;
 
 margin-bottom: 3%;
-margin-top: 3%;
 
-display: flex;
+margin-top: 2%;
 
-width: 40%;
+font-size: 1.3em;
 
-margin-left: 30.5%;
+display: block;
 }
 .form3{
 text-align: center;
@@ -103,18 +129,38 @@ border-bottom: 3px solid
 black;
 
 width: 18%;
+
 }
 footer {
 margin: 0;
 
 background-color:
-gainsboro;
+#000000eb;
+
+border-top: 2px solid
+black;
+
+border-bottom: 2px solid
+black;
+
+color:
+wheat;
+}
+
+.memberfoot{
+margin: 0;
+
+background-color:
+black;
 
 border-top: 2px solid
 gray;
 
 border-bottom: 2px solid
 gray;
+margin-top: 13%;
+color: wheat;
+
 }
 .php--findfilm{
 
@@ -129,15 +175,16 @@ padding: 2%;
 text-align: center;
 
 margin-top: 2%;
-background-color: #ffffff59;
+background-color: black;
 
 margin-bottom: 2%;
+font-size: 1.5em;
 
 }
 .php--findfilm a {
 border: 1px solid black;
 padding: 5px 10px;
-background-color: gainsboro;
+background-color: orangered;
 }
 .row-comm{
 border: 1px solid;
@@ -157,7 +204,33 @@ margin-top: 3%;
 padding-top: 1%;
 
 padding-bottom: 1%;
+
+font-family: 'Gruppo', cursive;
+
+font-size: 1.5em;
 }
 .row-comm p {
 max-width: 100%;
+}
+.Presentation img {
+width: 150%;
+
+margin-left: -24%;
+}
+.btn{
+background:
+orangered;
+
+border: none;
+
+padding: 5px 10px;
+box-shadow: 0px 5px 5px 0px black;
+border-radius: 8px;
+transition: all 0.5s;
+cursor: pointer;
+font-size: 1em;
+}
+.btn:hover{
+transform: scale(1.2);
+
 }
